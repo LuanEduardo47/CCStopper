@@ -11,12 +11,6 @@ status = 200
 force = true
 
 [[redirects]]
-from = "/rick"
-to = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-status = 301
-force = true
-
-[[redirects]]
 from = "/*"
 to = "https://github.com/eaaasun/CCStopper"
 status = 301
