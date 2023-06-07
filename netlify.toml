@@ -1,6 +1,6 @@
 [[redirects]]
 from = "/test"
-to = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+to = "https://raw.githubusercontent.com/eaaasun/CCStopper/main/makezip.ps1"
 status = 200
 force = true
 
