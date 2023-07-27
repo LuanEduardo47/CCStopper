@@ -22,7 +22,7 @@ function DownloadFiles($items, $basePath = "") {
 }
 
 function CreateShortcut($targetPath, $arguement, $shortcutPath, $iconPath) {
-    $LogoURL = "https://raw.githubusercontent.com/eaaasun/CCStopper/dev/runFromWeb/icon.ico"
+    $LogoURL = "https://raw.githubusercontent.com/eaaasun/CCStopper/web/scripts/icon.ico"
     if (!(Test-Path -Path $folderPath)) {
         New-Item -ItemType Directory -Path $folderPath -Force | Out-Null
     }
@@ -37,7 +37,7 @@ function CreateShortcut($targetPath, $arguement, $shortcutPath, $iconPath) {
     $Shortcut.Save()
 }
 
-$apiUrl = "https://api.github.com/repos/eaaasun/CCStopper/contents/localScripts?ref=dev"
+$apiUrl = "https://api.github.com/repos/eaaasun/CCStopper/contents/src?ref=dev"
 
 if ($install) {
     $folderPath = "$env:ProgramFiles\CCStopper"
