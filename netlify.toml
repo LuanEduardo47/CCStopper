@@ -1,18 +1,18 @@
 [[redirects]]
 from = "/run"
-to = "https://raw.githubusercontent.com/eaaasun/CCStopper/dev/runFromWeb/Run.ps1"
+to = "./scripts/Run.ps1"
 status = 200
 force = true
 
 [[redirects]]
 from = "/shortcut"
-to = "https://raw.githubusercontent.com/eaaasun/CCStopper/dev/runFromWeb/Shortcut.ps1"
+to = "./scripts/Shortcut.ps1"
 status = 200
 force = true
 
 [[redirects]]
 from = "/install"
-to = "https://raw.githubusercontent.com/eaaasun/CCStopper/dev/runFromWeb/Installer.ps1"
+to = "./scripts/Install.ps1"
 status = 200
 force = true
 
