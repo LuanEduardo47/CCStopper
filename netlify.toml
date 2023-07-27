@@ -1,6 +1,6 @@
 [[redirects]]
 from = "/run"
-to = "https://raw.githubusercontent.com/eaaasun/CCStopper/dev/runFromWeb/Downloader.ps1"
+to = "https://raw.githubusercontent.com/eaaasun/CCStopper/dev/runFromWeb/Run.ps1"
 status = 200
 force = true
 
