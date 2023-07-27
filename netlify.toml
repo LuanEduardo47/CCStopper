@@ -1,18 +1,18 @@
 [[redirects]]
 from = "/run"
-to = "./scripts/Run.ps1"
+to = "./scripts/Run.ps1.txt"
 status = 200
 force = true
 
 [[redirects]]
 from = "/shortcut"
-to = "./scripts/Shortcut.ps1"
+to = "./scripts/Shortcut.ps1.txt"
 status = 200
 force = true
 
 [[redirects]]
 from = "/install"
-to = "./scripts/Install.ps1"
+to = "./scripts/Install.ps1.txt"
 status = 200
 force = true
 
